@@ -1,0 +1,14 @@
+﻿<control:MainWindow x:Class="theApp.appWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:control="clr-namespace:CustomWindow;assembly=CustomWindow1"
+        Title="Main App Window" Height="350" Width="525">
+
+    <Grid Name="mainGrid" Background="CadetBlue">
+
+        <DockPanel HorizontalAlignment="Left" Height="135" LastChildFill="False" Margin="10,10,0,0" VerticalAlignment="Top" Width="188">
+            <TextBlock Text="Hello..." FontSize="24" FontStyle="Oblique" />
+        </DockPanel>
+
+    </Grid>
+</control:MainWindow>
